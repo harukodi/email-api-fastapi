@@ -37,4 +37,4 @@ USER appuser
 COPY . .
 
 # Run the application.
-CMD ["python", "main.py"]
+CMD ["fastapi", "run", "main.py", "--port", "8000"]
